@@ -10,6 +10,8 @@ import {
 } from 'react-native';
 import {Search} from './icons';
 
+//Git'e gönder
+
 const searchBox = ({}) => {
   const [value, setValue] = useState('');
   const animValue2 = useRef(new Animated.Value(350)).current;
